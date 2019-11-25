@@ -140,7 +140,7 @@ class AppointmentController {
         },
         {
           model: User,
-          as: 'provider',
+          as: 'user',
           attributes: ['name'],
         },
       ],
